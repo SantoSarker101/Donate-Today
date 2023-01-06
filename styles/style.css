@@ -1,0 +1,318 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+h1,h2,h3,h4,h5{
+	font-family: 'Inter', sans-serif;
+}
+
+p{
+	font-family: 'Poppins', sans-serif;
+}
+
+header{
+	background-image: url(../images/donation6.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+
+}
+
+.all{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+
+h1{
+	margin-top: 100px;
+	font-weight: 700;
+	font-size: 65px;
+	text-align: center;
+	color: #ffffff;
+}
+
+.help-desc{
+	margin: 20px 0;
+	font-size: 18px;
+	text-align: center;
+	color: #ffffff;
+}
+
+.btn-primary{
+	background: #FF5959;
+	border-radius: 5px;
+	padding: 15px 25px;
+	border: 0;
+	color: #ffffff;
+	font-weight: 600;
+	font-size: 20px;
+	margin-bottom: 100px;
+	cursor: pointer;
+}
+
+.btn-primary:hover{
+	color: #FF5959;
+	background-color: #d1cccc;
+}
+
+
+
+/* Amount Section Start */
+
+.amount-section{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.donet-title{
+	margin-top: 80px;
+	font-weight: 700;
+	font-size: 45px;
+	text-align: center;
+}
+
+.donet-desc{
+	margin: 20px 0 30px 0;
+	font-size: 18px;
+	text-align: center;
+	color: #707070;
+}
+
+.amounts{
+	display: flex;
+}
+
+.amount{
+	background: #FAFAFA;
+	border-radius: 5px;
+	padding: 25px 25px;
+	margin-right: 22px;
+	font-weight: 700;
+	font-size: 30px;
+}
+
+.amountt2{
+	border: 2px solid #FF5959;
+	background: #FFEEEE;
+}
+
+.other{
+	color: #B3B3B3;
+	font-size: 18px;
+	margin: 30px 0 9px 0;
+}
+
+.hori{
+	margin-bottom: 20px;
+	color:#e7e3e3;
+	width: 50%;
+	border-bottom: none;
+	border-top: 0.1px solid;
+}
+
+
+
+/* Donat Plan Section */
+
+.help-plan{
+	display: flex;
+	margin: 30px 80px 80px;
+}
+
+.helps{
+	display: flex;
+	flex-direction: column;
+	border-radius: 5px;
+	padding: 50px 15px;
+	margin-right: 22px;
+}
+
+.donate-image{
+	width: 40px;
+}
+
+
+.food{
+	background: rgba(79, 157, 166, 0.1);
+}
+
+.shelter{
+	background: rgba(255, 89, 89, 0.1);
+}
+
+.education{
+	background: #FFF4D6;
+}
+
+.ttle{
+	margin: 25px 0 15px 0;
+}
+
+.desc{
+	text-align: justify;
+}
+
+
+
+/* Your Donation Section Start */
+
+.your-donation{
+	display: flex;
+	justify-content: space-around;
+}
+
+.donation-ig{
+	width: 350px;
+	height: 300px;
+}
+
+.at{
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.asi{
+	width: 50%;
+	margin-top: 80px;
+}
+
+.dsc{
+	width: 60%;
+	text-align: justify;
+	font-size: 18px;
+	color: #707070;
+	margin: 20px 0px 20px 160px;
+}
+
+.donet-ti{
+	margin-top: 70px;
+	font-weight: 700;
+	font-size: 45px;
+	margin-left: 210px;
+}
+
+
+/*Suvive section */
+
+.suvive{
+	display: flex;
+	justify-content: space-around;
+}
+
+.asd{
+	margin-left: 200px;
+	width: 15%;
+}
+
+.art{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-left: 0px;
+	width: 85%;
+}
+
+.donation-ige{
+	width: 350px;
+	height: 300px;
+}
+
+.dscc{
+	text-align: justify;
+	margin-left: 50px;
+	width: 50%;
+	font-size: 18px;
+	color: #707070;
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
+
+.donet-titl{
+	font-weight: 700;
+	font-size: 45px;
+}
+
+
+/* Update Section Start */
+
+
+.update{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.update-title{
+	font-weight: 700;
+	font-size: 45px;
+	color: #121212;
+	margin-top: 70px;
+}
+
+.ds{
+	color: #707070;
+	font-size: 18px;
+	margin: 20px 0;
+	text-align: center;
+}
+
+
+.subscribe{
+	background: #FFF4D6;
+	padding: 60px 160px;
+	display: flex;
+}
+
+input[type = "email"]{
+	background: #D9D9D9;
+	border: 0;
+	padding: 10px;
+	border-radius: 5px 0px 0px 5px;
+}
+
+input[type = "submit"]{
+	background: #FF5959;
+	border-radius: 0px 5px 5px 0px;
+	border: 0;
+	padding: 10px;
+	margin-left: 0;
+	color: #ffffff;
+}
+
+input[type = "submit"]:hover{
+	color: #FF5959;
+	background-color: #ffffff;
+	cursor: pointer;
+}
+
+
+/* Footer Section */
+
+footer{
+	background: #0B0D17;
+	margin-top: 80px;
+	min-height: 100px;
+}
+
+.humble{
+	color: #FF5959;
+	text-align: center;
+	font-size: 36px;
+	letter-spacing: 0.5px;
+	margin: 30px 0 20px 0;
+	font-family: 'Lobster', cursive;
+}
+
+.do-it{
+	color: #D9DBE1;
+	text-align: center;
+	font-size: 14px;
+	margin-bottom: 30px;
+}
